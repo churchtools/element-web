@@ -12,15 +12,15 @@
     "disable_guests": true,
     "disable_login_language_selector": false,
     "disable_3pid_login": true,
-    "brand": "ChurchTools",
+    "brand": "ChurchTools Chat",
     "branding": {
-        "welcomeBackgroundUrl": "https://assets-global.website-files.com/5aa11971d0c6f900013b09af/5c5b0da1300f93776be0e3c0_Schulungen1.png",
-        "authHeaderLogoUrl": "https://assets-global.website-files.com/5aa11971d0c6f900013b09af/5aa15825d0c6f900013b7d30_Schriftzug%20ohne%20padding.png",
-        "authFooterLinks": [{"text": "Link text", "url": "https://link.target"}, {"text": "Other link"}]
+        "welcomeBackgroundUrl": "",
+        "authHeaderLogoUrl": "https://ccp.church.tools/ChurchTools_Logo.png",
+        "authFooterLinks": [{"text": "ChurchTools Website", "url": "https://church.tools"}, {"text": "ChurchTools Blog", "url": "https://blog.church.tools"}]
     },
     "embeddedPages": {
         "welcomeUrl": "",
-        "homeUrl": "http://churchtools.test/home.html"
+        "homeUrl": "https://ccp.church.tools/login.html"
     },
     "integrations_ui_url": "",
     "integrations_rest_url": "",
@@ -32,7 +32,7 @@
         "feature_new_spinner": false
     },
     "default_federate": false,
-    "default_theme": "light",
+    "default_theme": "custom-ChurchTools",
     "roomDirectory": {
         "servers": []
     },
@@ -50,7 +50,56 @@
         "UIFeature.passwordReset": false,
         "UIFeature.deactivate": false,
         "UIFeature.advancedEncryption": false,
-        "UIFeature.roomHistorySettings": false
+        "UIFeature.roomHistorySettings": false,
+        "custom_themes": [
+            {
+                "name": "ChurchTools",
+                "is_dark": false,
+                "fonts": {
+                    "faces": [
+                        {
+                            "font-family": "Inter",
+                            "src": [{"url": "/fonts/Inter.ttf", "format": "ttf"}]
+                        }
+                    ],
+                    "general": "Inter, sans",
+                    "monospace": "'Courier New'"
+                },
+                "colors": {
+                    "accent-color": "#000000",
+                    "primary-color": "#ffffff",
+                    "warning-color": "#ff4b55",
+                    "sidebar-color": "#27303a",
+                    "roomlist-background-color": "#f3f8fd",
+                    "roomlist-text-color": "#2e2f32",
+                    "roomlist-text-secondary-color": "#61708b",
+                    "roomlist-highlights-color": "#ffffff",
+                    "roomlist-separator-color": "#e3e8f0",
+                    "timeline-background-color": "#ffffff",
+                    "timeline-text-color": "#2e2f32",
+                    "timeline-text-secondary-color": "#61708b",
+                    "timeline-highlights-color": "#f3f8fd"
+                }
+            }, {
+                "name": "Deep Purple",
+                "is_dark": true,
+                "colors": {
+                    "accent-color": "#6503b3",
+                    "primary-color": "#368bd6",
+                    "warning-color": "#b30356",
+                    "sidebar-color": "#15171B",
+                    "roomlist-background-color": "#22262E",
+                    "roomlist-text-color": "#A1B2D1",
+                    "roomlist-text-secondary-color": "#EDF3FF",
+                    "roomlist-highlights-color": "#343A46",
+                    "roomlist-separator-color": "#a1b2d1",
+                    "timeline-background-color": "#181b21",
+                    "timeline-text-color": "#EDF3FF",
+                    "timeline-text-secondary-color": "#A1B2D1",
+                    "timeline-highlights-color": "#22262E"
+                }
+            }
+        ]
 
     },
     "jitsi": {
