@@ -1,0 +1,96 @@
+{
+    "default_server_config": {
+        "m.homeserver": {
+            "base_url": "https://chat.church.tools",
+            "server_name": "ChurchTools Chat"
+        },
+        "m.identity_server": {
+            "base_url": "https://vector.im"
+        }
+    },
+    "disable_custom_urls": true,
+    "disable_guests": true,
+    "disable_login_language_selector": false,
+    "disable_3pid_login": true,
+    "brand": "ChurchTools Chat",
+    "branding": {
+        "welcomeBackgroundUrl": "",
+        "authHeaderLogoUrl": "https://ccp.church.tools/ChurchTools_Logo.png",
+        "authFooterLinks": [{"text": "ChurchTools Website", "url": "https://church.tools"}, {"text": "ChurchTools Blog", "url": "https://blog.church.tools"}]
+    },
+    "embeddedPages": {
+        "welcomeUrl": "",
+        "homeUrl": ""
+    },
+    "integrations_ui_url": "",
+    "integrations_rest_url": "",
+    "integrations_widgets_urls": [],
+    "bug_report_endpoint_url": "https://www.church.tools/de/contact",
+    "defaultCountryCode": "DE",
+    "showLabsSettings": false,
+    "features": {
+        "feature_new_spinner": false
+    },
+    "default_federate": false,
+    "default_theme": "custom-ChurchTools",
+    "roomDirectory": {
+        "servers": []
+    },
+    "piwik": false,
+    "settingDefaults": {
+        "breadcrumbs": true,
+        "UIFeature.feedback": false,
+        "UIFeature.voip": false,
+        "UIFeature.widgets": false,
+        "UIFeature.communities": false,
+        "UIFeature.advancedSettings": false,
+        "UIFeature.identityServer": false,
+        "UIFeature.thirdPartyId": false,
+        "UIFeature.registration": false,
+        "UIFeature.passwordReset": false,
+        "UIFeature.deactivate": false,
+        "UIFeature.advancedEncryption": false,
+        "UIFeature.roomHistorySettings": false,
+        "custom_themes": [
+            {
+                "name": "ChurchTools",
+                "is_dark": false,
+                "fonts": {
+                    "faces": [
+                        {
+                            "font-family": "Lato",
+                            "src": [{"url": "/themes/element/lato-v14-latin-ext_latin-regular.woff2", "format": "woff2"}]
+                        }
+                    ],
+                    "general": "Lato, sans",
+                    "monospace": "'Courier New'"
+                },
+                "colors": {
+                    "accent-color": "#3E70CE",
+                    "primary-color": "#3E70CE",
+                    "warning-color": "#FB656E",
+                    "sidebar-color": "#363B40",
+                    "roomlist-background-color": "#F6F8FA",
+                    "roomlist-text-color": "#363B40",
+                    "roomlist-text-secondary-color": "#6C7680",
+                    "roomlist-highlights-color": "#ffffff",
+                    "roomlist-separator-color": "#DBE1E7",
+                    "timeline-background-color": "#ffffff",
+                    "timeline-text-color": "#363B40",
+                    "timeline-text-secondary-color": "#6C7680",
+                    "timeline-highlights-color": "#F6F8FA",
+                    "username-colors": ["#F38A58", "#FB656E", "#50C78B", "#48AAE1", "#3E70CE", "#945494", "#2E8E7B", "#6071B3"],
+                    "avatar-background-colors": ["#945494", "#3E70CE", "#50C78B"]
+                }
+            }
+        ]
+
+    },
+    "jitsi": {
+        "preferredDomain": "jitsi.riot.im"
+    },
+    "desktopBuilds": {
+        "available": false
+    },
+    "disableEncryption": true
+}
