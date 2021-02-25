@@ -20,7 +20,7 @@
     },
     "embeddedPages": {
         "welcomeUrl": "",
-        "homeUrl": "https://ccp.church.tools/login.html"
+        "homeUrl": ""
     },
     "integrations_ui_url": "",
     "integrations_rest_url": "",
@@ -58,45 +58,29 @@
                 "fonts": {
                     "faces": [
                         {
-                            "font-family": "Inter",
-                            "src": [{"url": "/fonts/Inter.ttf", "format": "ttf"}]
+                            "font-family": "Lato, sans-serif",
+                            "src": [{"url": "/themes/element/lato-v14-latin-ext_latin-regular.woff2", "format": "woff2"}]
                         }
                     ],
-                    "general": "Inter, sans",
-                    "monospace": "'Courier New'"
+                    "general": "Lato",
+                    "monospace": "'Lato'"
                 },
                 "colors": {
-                    "accent-color": "#000000",
-                    "primary-color": "#ffffff",
-                    "warning-color": "#ff4b55",
-                    "sidebar-color": "#27303a",
-                    "roomlist-background-color": "#f3f8fd",
-                    "roomlist-text-color": "#2e2f32",
-                    "roomlist-text-secondary-color": "#61708b",
+                    "accent-color": "#3E70CE",
+                    "primary-color": "#3E70CE",
+                    "warning-color": "#FB656E",
+                    "sidebar-color": "#363B40",
+                    "roomlist-background-color": "#F6F8FA",
+                    "roomlist-text-color": "#363B40",
+                    "roomlist-text-secondary-color": "#6C7680",
                     "roomlist-highlights-color": "#ffffff",
-                    "roomlist-separator-color": "#e3e8f0",
+                    "roomlist-separator-color": "#DBE1E7",
                     "timeline-background-color": "#ffffff",
-                    "timeline-text-color": "#2e2f32",
-                    "timeline-text-secondary-color": "#61708b",
-                    "timeline-highlights-color": "#f3f8fd"
-                }
-            }, {
-                "name": "Deep Purple",
-                "is_dark": true,
-                "colors": {
-                    "accent-color": "#6503b3",
-                    "primary-color": "#368bd6",
-                    "warning-color": "#b30356",
-                    "sidebar-color": "#15171B",
-                    "roomlist-background-color": "#22262E",
-                    "roomlist-text-color": "#A1B2D1",
-                    "roomlist-text-secondary-color": "#EDF3FF",
-                    "roomlist-highlights-color": "#343A46",
-                    "roomlist-separator-color": "#a1b2d1",
-                    "timeline-background-color": "#181b21",
-                    "timeline-text-color": "#EDF3FF",
-                    "timeline-text-secondary-color": "#A1B2D1",
-                    "timeline-highlights-color": "#22262E"
+                    "timeline-text-color": "#363B40",
+                    "timeline-text-secondary-color": "#6C7680",
+                    "timeline-highlights-color": "#F6F8FA",
+                    "username-colors": ["#F38A58", "#FB656E", "#50C78B", "#48AAE1", "#3E70CE", "#945494", "#2E8E7B", "#6071B3"],
+                    "avatar-background-colors": ["#945494", "#3E70CE", "#50C78B"]
                 }
             }
         ]
