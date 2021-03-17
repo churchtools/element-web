@@ -15,7 +15,7 @@
     "brand": "ChurchTools Web-Chat",
     "branding": {
         "welcomeBackgroundUrl": "",
-        "authHeaderLogoUrl": "https://ccp.church.tools/ChurchTools_Logo.png",
+        "authHeaderLogoUrl": "/themes/element/ChurchTools_Logo.png",
         "authFooterLinks": [
             { "text": "ChurchTools Website", "url": "https://church.tools" },
             { "text": "ChurchTools Blog", "url": "https://blog.church.tools" }
@@ -23,7 +23,7 @@
     },
     "embeddedPages": {
         "welcomeUrl": "",
-        "homeUrl": ""
+        "homeUrl": "/themes/element/startpage.html"
     },
     "integrations_ui_url": "",
     "integrations_rest_url": "",

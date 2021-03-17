@@ -35,5 +35,8 @@
     "unknown_device": "Unbekanntes Gerät",
     "use_brand_on_mobile": "Verwende %(brand)s am Handy",
     "web_default_device_name": "%(appName)s: %(browserName)s auf %(osName)s",
-    "welcome_to_element": "Willkommen im ChurchTools Web-Chat"
+    "welcome_to_element": "Willkommen im ChurchTools Web-Chat",
+    "Welcome ChurchTools Chat": "Willkommen beim ChurchTools Web-Chat",
+    "Welcome text": "Führe Chats aus der ChurchTools App fort. <br /> Chats mit Personen, die du hier noch nicht siehst, kannst du in der ChurchTools App starten. <br />",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:0/doc:FAQ%20zum%20Webchat\">FAQ</a> zum ChurchTools Web-Chat"
 }
