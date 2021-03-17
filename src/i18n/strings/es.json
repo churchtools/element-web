@@ -33,5 +33,8 @@
     "Your browser can't run %(brand)s": "Tu navegador no es compatible con %(brand)s",
     "%(brand)s uses advanced browser features which aren't supported by your current browser.": "%(brand)s usa funciones avanzadas que su navegador actual no soporta.",
     "Powered by Matrix": "Funciona con Matrix",
-    "Use %(brand)s on mobile": "Usar %(brand)s en modo móvil"
+    "Use %(brand)s on mobile": "Usar %(brand)s en modo móvil",
+    "Welcome ChurchTools Chat": "Bienvenido al ChurchTools Web-Chat",
+    "Welcome text": "Continúa con los chats de la aplicación ChurchTools.  Los chats con personas que aún no ves aquí puedes iniciarlos en la aplicación ChurchTools.",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:30/doc:FAQs%20Webchat\">FAQ</a> en ChurchTools Web-Chat"
 }
