@@ -32,5 +32,8 @@
     "Your Element is misconfigured": "Uw Element is verkeerd geconfigureerd",
     "Your browser can't run %(brand)s": "Uw browser kan %(brand)s niet draaien",
     "%(brand)s uses advanced browser features which aren't supported by your current browser.": "%(brand)s gebruikt geavanceerde functies die niet ondersteund worden in uw huidige browser.",
-    "Powered by Matrix": "Gebruikt Matrix technologie"
+    "Powered by Matrix": "Gebruikt Matrix technologie",
+    "Welcome ChurchTools Chat": "Welkom bij de ChurchTools Web-Chat",
+    "Welcome text": "Voortzetting van chats vanuit de ChurchTools app.  Chats met mensen die je hier nog niet ziet, kun je starten in de ChurchTools app.",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:30/doc:FAQs%20Webchat\">FAQs</a> op ChurchTools Web-Chat"
 }

@@ -32,5 +32,8 @@
     "Open": "Открыть",
     "Your browser can't run %(brand)s": "Ваш браузер не может запустить %(brand)s",
     "%(brand)s uses advanced browser features which aren't supported by your current browser.": "%(brand)s использует расширенные возможности, которые не поддерживаются вашим браузером.",
-    "Powered by Matrix": "На технологии Matrix"
+    "Powered by Matrix": "На технологии Matrix",
+    "Welcome ChurchTools Chat": "Добро пожаловать в веб-чат ChurchTools",
+    "Welcome text": "Продолжайте чаты из приложения ChurchTools.  Чат с людьми, которых вы еще не видите здесь, можно начать в приложении ChurchTools",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:30/doc:FAQs%20Webchat\">FAQs</a> на веб-чате ChurchTools"
 }

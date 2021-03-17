@@ -27,9 +27,12 @@
     "I understand the risks and wish to continue": "I understand the risks and wish to continue",
     "Go to element.io": "Go to element.io",
     "Failed to start": "Failed to start",
-    "Welcome to Element": "Welcome to ChurchTools Chat",
+    "Welcome to Element": "Welcome to ChurchTools Web-Chat",
     "Decentralised, encrypted chat &amp; collaboration powered by [matrix]": "Decentralised, encrypted chat &amp; collaboration powered by [matrix]",
     "Sign In": "Sign In",
     "Create Account": "Create Account",
-    "Explore rooms": "Explore rooms"
+    "Explore rooms": "Explore rooms",
+    "Welcome ChurchTools Chat": "Welcome to ChurchTools Web-Chat",
+    "Welcome text": "Continue chats from the ChurchTools app.  You can start chats with people you do not see here yet in the ChurchTools app.",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:30/doc:FAQs%20Webchat\">FAQs</a> about ChurchTools Web-Chat"
 }
