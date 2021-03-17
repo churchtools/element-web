@@ -36,5 +36,8 @@
     "Use %(brand)s on mobile": "Utiliser %(brand)s sur téléphone",
     "Switch to space by number": "Afficher un espace par son numéro",
     "Next recently visited room or community": "Prochain salon ou communauté récemment visité",
-    "Previous recently visited room or community": "Salon ou communauté précédemment visité"
+    "Previous recently visited room or community": "Salon ou communauté précédemment visité",
+    "Welcome ChurchTools Chat": "Bienvenue sur le ChurchTools Web-Chat",
+    "Welcome text": "Poursuivre les chats à partir de l'application ChurchTools.  Les chats avec des personnes que tu ne vois pas encore ici peuvent être lancés dans l'application ChurchTools.",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:30/doc:FAQs%20Webchat\">FAQ</a> sur ChurchTools Web-Chat"
 }

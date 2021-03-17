@@ -36,5 +36,8 @@
     "Use %(brand)s on mobile": "Воспользуйтесь %(brand)s на мобильном телефоне",
     "Switch to space by number": "Переключение на пространство по номеру",
     "Next recently visited room or community": "Следующая недавно посещенная комната или сообщество",
-    "Previous recently visited room or community": "Предыдущая недавно посещенная комната или сообщество"
+    "Previous recently visited room or community": "Предыдущая недавно посещенная комната или сообщество",
+    "Welcome ChurchTools Chat": "Добро пожаловать в веб-чат ChurchTools",
+    "Welcome text": "Продолжайте чаты из приложения ChurchTools.  Чат с людьми, которых вы еще не видите здесь, можно начать в приложении ChurchTools",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:30/doc:FAQs%20Webchat\">FAQ</a> на веб-чате ChurchTools"
 }

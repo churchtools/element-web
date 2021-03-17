@@ -31,5 +31,8 @@
     "Failed to start": "Erro ao iniciar",
     "%(brand)s uses advanced browser features which aren't supported by your current browser.": "%(brand)s utiliza funções avançadas que não são suportadas pelo teu atual browser.",
     "Your browser can't run %(brand)s": "O teu browser não consegue executar %(brand)s",
-    "Use %(brand)s on mobile": "Usar %(brand)s no telemóvel"
+    "Use %(brand)s on mobile": "Usar %(brand)s no telemóvel",
+    "Welcome ChurchTools Chat": "Bem-vindos ao ChurchTools Web-Chat",
+    "Welcome text": "Continue as conversas da aplicação ChurchTools.  As chats com pessoas que ainda não vêem aqui podem ser iniciadas na aplicação ChurchTools.",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:30/doc:FAQs%20Webchat\">FAQ</a> em ChurchTools Web-Chat"
 }

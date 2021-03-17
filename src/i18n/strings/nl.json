@@ -36,5 +36,8 @@
     "Use %(brand)s on mobile": "Gebruik %(brand)s op uw mobiel",
     "Switch to space by number": "Wissel naar Space met nummer",
     "Next recently visited room or community": "Volgende recent bezochte kamer of community",
-    "Previous recently visited room or community": "Vorige recent bezochte kamer of community"
+    "Previous recently visited room or community": "Vorige recent bezochte kamer of community",
+    "Welcome ChurchTools Chat": "Welkom bij de ChurchTools Web-Chat",
+    "Welcome text": "Voortzetting van chats vanuit de ChurchTools app.  Chats met mensen die je hier nog niet ziet, kun je starten in de ChurchTools app.",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:30/doc:FAQs%20Webchat\">FAQ</a> op ChurchTools Web-Chat"
 }
