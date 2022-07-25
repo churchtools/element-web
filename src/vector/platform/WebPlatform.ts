@@ -32,9 +32,9 @@ const POKE_RATE_MS = 10 * 60 * 1000; // 10 min
 
 function getNormalizedAppVersion(version: string): string {
     // if version looks like semver with leading v, strip it (matches scripts/normalize-version.sh)
-    const semVerRegex = /^v\d+.\d+.\d+(-.+)?$/;
+    const semVerRegex = /^churchtools-v\d+.\d+.\d+(-.+)?$/;
     if (semVerRegex.test(version)) {
-        return version.substring(1);
+        return version.substring(13);
     }
     return version;
 }
