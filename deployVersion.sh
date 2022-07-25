@@ -1,6 +1,10 @@
 #!/bin/bash
 
-yarn build
-cp config.churchtools.json webapp/config.json
-echo $1 > webapp/version
-cd webapp/ && zip -r ../webchat-$1.zip .
+version=$1
+
+DIST_VERSION=$version ./scripts/package.sh
+cd dist
+tar -xvzf element-$version.tar.gz
+cd ..
+cp config.churchtools.json dist/element-$version/config.json
+cd dist/element-$version && zip -r ../webchat-$version.zip .
