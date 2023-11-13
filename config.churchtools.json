@@ -74,33 +74,33 @@
                     "monospace": "'Courier New'"
                 },
                 "colors": {
-                    "accent-color": "#3E70CE",
-                    "primary-color": "#3E70CE",
-                    "warning-color": "#FB656E",
-                    "sidebar-color": "#d6dadd",
-                    "roomlist-background-color": "#F6F8FA",
-                    "roomlist-text-color": "#363B40",
-                    "roomlist-text-secondary-color": "#6C7680",
-                    "roomlist-highlights-color": "#ffffff",
-                    "roomlist-separator-color": "#DBE1E7",
+                    "accent": "#2563EB",
+                    "quinary-content": "#E2E8F0",
+                    "warning-color": "#EF4444",
+                    "sidebar-color": "#EBEFF5",
+                    "roomlist-background-color": "#F1F5F9",
+                    "roomlist-text-color": "#0F172A",
+                    "roomlist-text-secondary-color": "#475569",
+                    "roomlist-highlights-color": "#E2E8F0",
+                    "roomlist-separator-color": "#E2E8F0",
                     "timeline-background-color": "#ffffff",
-                    "timeline-text-color": "#363B40",
-                    "timeline-text-secondary-color": "#6C7680",
-                    "timeline-highlights-color": "#F6F8FA",
+                    "timeline-text-color": "#0F172A",
+                    "timeline-text-secondary-color": "#475569",
+                    "timeline-highlights-color": "#F1F5F9",
                     "username-colors": [
-                        "#F38A58",
-                        "#FB656E",
-                        "#50C78B",
-                        "#48AAE1",
-                        "#3E70CE",
-                        "#945494",
-                        "#2E8E7B",
-                        "#6071B3"
+                        "#0EA5E9",
+                        "#22C55E",
+                        "#2563EB",
+                        "#8B5CF6",
+                        "#EAB308",
+                        "#EF4444",
+                        "#F97316",
+                        "#D946EF"
                     ],
                     "avatar-background-colors": [
-                        "#945494",
-                        "#3E70CE",
-                        "#50C78B"
+                        "#22C55E",
+                        "#2563EB",
+                        "#F97316"
                     ]
                 }
             }
