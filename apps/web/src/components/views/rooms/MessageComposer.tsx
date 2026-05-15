@@ -54,6 +54,7 @@ import { type MatrixClientProps, withMatrixClientHOC } from "../../../contexts/M
 import { UIFeature } from "../../../settings/UIFeature";
 import { formatTimeLeft } from "../../../DateUtils";
 import RoomReplacedSvg from "../../../../res/img/room_replaced.svg";
+import SdkConfig from "../../../SdkConfig";
 
 // The prefix used when persisting editor drafts to localstorage.
 export const WYSIWYG_EDITOR_STATE_STORAGE_PREFIX = "mx_wysiwyg_state_";
@@ -528,7 +529,8 @@ export class MessageComposer extends React.Component<IProps, IState> {
 
     public render(): React.ReactNode {
         let leftIcon: false | JSX.Element = false;
-        if (!this.state.isWysiwygLabEnabled) {
+        const encryptionDisabled = SdkConfig.get("disable_encryption") === true;
+        if (!this.state.isWysiwygLabEnabled && !encryptionDisabled) {
             if (!this.props.e2eStatus) {
                 leftIcon = (
                     <div className="mx_MessageComposer_e2eIconWrapper">

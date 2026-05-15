@@ -287,7 +287,7 @@ class MatrixClientPegClass implements IMatrixClientPeg {
         this.matrixClient.store.on?.("closed", this.onUnexpectedStoreClose);
 
         // try to initialise e2e on the new client
-        if (!SettingsStore.getValue("lowBandwidth")) {
+        if (!SettingsStore.getValue("lowBandwidth") && SdkConfig.get("disable_encryption") !== true) {
             await this.initClientCrypto(assignOpts.rustCryptoStoreKey, assignOpts.rustCryptoStorePassword);
         }
 
