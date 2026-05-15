@@ -628,11 +628,11 @@
         "mode_plain": "Masquer le formatage",
         "mode_rich_text": "Afficher le formatage",
         "no_perms_notice": "Vous n’avez pas la permission de poster dans ce salon",
-        "placeholder": "Envoyer un message non chiffré…",
-        "placeholder_encrypted": "Envoyer un message chiffré…",
-        "placeholder_reply": "Envoyer une réponse non chiffrée…",
+        "placeholder": "Envoyer un message…",
+        "placeholder_encrypted": "Envoyer un message…",
+        "placeholder_reply": "Envoyer une réponse...",
         "placeholder_reply_encrypted": "Envoyer une réponse...",
-        "placeholder_thread": "Répondre au fil de discussion non chiffré…",
+        "placeholder_thread": "Répondre au fil de discussion...",
         "placeholder_thread_encrypted": "Répondre au fil de discussion...",
         "poll_button": "Sondage",
         "poll_button_no_perms_description": "Vous n’avez pas la permission de démarrer un sondage dans ce salon.",
@@ -1803,9 +1803,9 @@
         },
         "total_no_votes": "Aucun vote exprimé",
         "total_not_ended": "Les résultats seront visibles lorsque le sondage sera terminé",
-        "type_closed": "Sondage fermé",
-        "type_heading": "Type de sondage",
-        "type_open": "Sondage ouvert",
+        "type_closed": "Visible après la fin",
+        "type_heading": "Votes",
+        "type_open": "Visible après le vote",
         "unable_edit_description": "Désolé, vous ne pouvez pas modifier un sondage après que les votes aient été exprimés.",
         "unable_edit_title": "Impossible de modifier le sondage"
     },
@@ -4152,5 +4152,8 @@
             "userInputs": "Il ne devrait y avoir aucune donnée personnelle ou relative à la page.",
             "wordByItself": "Un mot seul est facile à deviner"
         }
-    }
+    },
+    "Welcome ChurchTools Chat": "Bienvenue sur le ChurchTools Web-Chat",
+    "Welcome text": "Poursuis les chats de l’application ChurchTools. Tu peux démarrer dans l’application ChurchTools les chats avec les personnes que tu ne vois pas encore ici.",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:30/doc:FAQs%20Webchat\">FAQ</a> sur ChurchTools Web-Chat"
 }

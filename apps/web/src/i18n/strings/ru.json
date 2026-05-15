@@ -629,11 +629,11 @@
         "mode_plain": "Скрыть форматирование",
         "mode_rich_text": "Показать форматирование",
         "no_perms_notice": "Вы не можете писать в этот чат",
-        "placeholder": "Отправить незашифрованное сообщение...",
-        "placeholder_encrypted": "Отправить зашифрованное сообщение…",
-        "placeholder_reply": "Отправить незашифрованный ответ…",
+        "placeholder": "Отправить сообщение…",
+        "placeholder_encrypted": "Отправить сообщение…",
+        "placeholder_reply": "Отправить ответ…",
         "placeholder_reply_encrypted": "Отправить ответ…",
-        "placeholder_thread": "Ответить в небезопасном обсуждение…",
+        "placeholder_thread": "Ответить в обсуждение…",
         "placeholder_thread_encrypted": "Ответить в обсуждение…",
         "poll_button": "Опрос",
         "poll_button_no_perms_description": "У вас нет разрешения начинать опросы в этом чате",
@@ -1781,9 +1781,9 @@
         },
         "total_no_votes": "Голосов нет",
         "total_not_ended": "Результаты будут видны после завершения опроса",
-        "type_closed": "Закрытый опрос",
-        "type_heading": "Тип опроса",
-        "type_open": "Открытый опрос",
+        "type_closed": "Видно после завершения",
+        "type_heading": "Голоса",
+        "type_open": "Видно после голосования",
         "unable_edit_description": "Вы не можете редактировать опрос после завершения голосования.",
         "unable_edit_title": "Невозможно редактировать опрос"
     },
@@ -4136,5 +4136,8 @@
             "userInputs": "Не должно быть никаких личных данных или данных, связанных со страницами.",
             "wordByItself": "Общеупотребительные слова легко угадываемы"
         }
-    }
+    },
+    "Welcome ChurchTools Chat": "Добро пожаловать в ChurchTools Web-Chat",
+    "Welcome text": "Продолжайте чаты из приложения ChurchTools. Чаты с людьми, которых вы здесь пока не видите, можно начать в приложении ChurchTools.",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:30/doc:FAQs%20Webchat\">FAQ</a> о ChurchTools Web-Chat"
 }

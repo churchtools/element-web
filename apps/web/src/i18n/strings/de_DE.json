@@ -529,7 +529,7 @@
         "on": "An",
         "options": "Optionen",
         "orphan_rooms": "Andere Chats",
-        "password": "Passwort",
+        "password": "ChurchTools Passwort",
         "people": "Personen",
         "preferences": "Präferenzen",
         "presence": "Anwesenheit",
@@ -582,7 +582,7 @@
         "updating": "Aktualisieren...",
         "user": "Benutzer",
         "user_avatar": "Profilbild",
-        "username": "Benutzername",
+        "username": "Chat ID",
         "verified": "Verifiziert",
         "version": "Version",
         "video": "Video",
@@ -664,7 +664,7 @@
         "join_rule_invite_label": "Nur eingeladene Personen können den Chat finden und ihm beitreten.",
         "join_rule_knock_label": "Jeder kann den Beitritt zum Chat erbitten, aber ein Admin oder Moderator muss die Anfrage akzeptieren. Du kannst dies später ändern.",
         "join_rule_public_label": "Alle können diesen Chat finden und ihm beitreten.",
-        "join_rule_public_parent_space_label": "Jeder kann den Chat finden oder ihm beitreten, nicht nur Mitglieder von <SpaceName/>.",
+        "join_rule_public_parent_space_label": "Jeder kann den Chat finden oder ihm beitreten, nicht nur Mitglieder von <SpaceName/>. Das gilt auch für Mitglieder aller ChurchTools-Installationen.",
         "join_rule_restricted": "Für Space-Mitglieder sichtbar",
         "join_rule_restricted_label": "Mitglieder von <SpaceName/> können diesen Chat finden und ihm beitreten.",
         "name_validation_required": "Bitte gib einen Namen für den Chat ein",
@@ -1777,9 +1777,9 @@
         },
         "total_no_votes": "Es wurden noch keine Stimmen abgegeben",
         "total_not_ended": "Ergebnisse werden nach Abschluss der Umfrage sichtbar",
-        "type_closed": "Versteckte Umfrage",
-        "type_heading": "Abstimmungsart",
-        "type_open": "Offene Umfrage",
+        "type_closed": "Erst nach Beenden sichtbar",
+        "type_heading": "Stimmen",
+        "type_open": "Nach Stimmabgabe sichtbar",
         "unable_edit_description": "Du kannst Umfragen nicht bearbeiten, sobald Stimmen abgegeben wurden.",
         "unable_edit_title": "Umfrage kann nicht bearbeitet werden"
     },
@@ -4096,5 +4096,8 @@
             "userInputs": "Personenbezogene oder seitenbezogene Daten sollten hier nicht vorhanden sein.",
             "wordByItself": "Ein einzelnes Wort ist einfach zu erraten"
         }
-    }
+    },
+    "Welcome ChurchTools Chat": "Willkommen beim ChurchTools Web-Chat",
+    "Welcome text": "Führe Chats aus der ChurchTools App fort. <br /> Chats mit Personen, die du hier noch nicht siehst, kannst du in der ChurchTools App starten. <br />",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:0/doc:FAQ%20zum%20Webchat\">FAQ</a> zum ChurchTools Web-Chat"
 }

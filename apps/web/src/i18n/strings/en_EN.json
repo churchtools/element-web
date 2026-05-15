@@ -530,7 +530,7 @@
         "on": "On",
         "options": "Options",
         "orphan_rooms": "Other rooms",
-        "password": "Password",
+        "password": "ChurchTools Password",
         "people": "People",
         "preferences": "Preferences",
         "presence": "Presence",
@@ -583,7 +583,7 @@
         "updating": "Updating...",
         "user": "User",
         "user_avatar": "Profile picture",
-        "username": "Username",
+        "username": "Chat ID",
         "verified": "Verified",
         "version": "Version",
         "video": "Video",
@@ -665,7 +665,7 @@
         "join_rule_invite_label": "Only people invited will be able to find and join this room.",
         "join_rule_knock_label": "Anyone can request to join, but admins or moderators need to grant access. You can change this later.",
         "join_rule_public_label": "Anyone will be able to find and join this room.",
-        "join_rule_public_parent_space_label": "Anyone will be able to find and join this room, not just members of <SpaceName/>.",
+        "join_rule_public_parent_space_label": "Anyone will be able to find and join this room, not just members of <SpaceName/>. This also includes ChurchTools users from other churches.",
         "join_rule_restricted": "Standard",
         "join_rule_restricted_label": "Anyone in <SpaceName/> can join.",
         "name_validation_required": "Please enter a name for the room",
@@ -1811,9 +1811,9 @@
         },
         "total_no_votes": "No votes cast",
         "total_not_ended": "Results will be visible when the poll is ended",
-        "type_closed": "Closed poll",
-        "type_heading": "Poll type",
-        "type_open": "Open poll",
+        "type_closed": "Visible after ending",
+        "type_heading": "Votes",
+        "type_open": "Visible after voting",
         "unable_edit_description": "Sorry, you can't edit a poll after votes have been cast.",
         "unable_edit_title": "Can't edit poll"
     },
@@ -4175,5 +4175,8 @@
             "userInputs": "There should not be any personal or page related data.",
             "wordByItself": "A word by itself is easy to guess"
         }
-    }
+    },
+    "Welcome ChurchTools Chat": "Welcome to ChurchTools Web-Chat",
+    "Welcome text": "Continue chats from the ChurchTools app. You can start chats with people you do not see here yet in the ChurchTools app.",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:30/doc:FAQs%20Webchat\">FAQ</a> about ChurchTools Web-Chat"
 }

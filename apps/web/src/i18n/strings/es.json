@@ -628,11 +628,11 @@
         "mode_rich_text": "Mostrar formato",
         "no_perms_notice": "No tienes permiso para publicar en esta sala",
         "placeholder": "Enviar un mensaje…",
-        "placeholder_encrypted": "Enviar un mensaje cifrado…",
+        "placeholder_encrypted": "Enviar un mensaje…",
         "placeholder_reply": "Enviar una respuesta…",
-        "placeholder_reply_encrypted": "Enviar una respuesta cifrada…",
+        "placeholder_reply_encrypted": "Enviar una respuesta…",
         "placeholder_thread": "Responder al hilo…",
-        "placeholder_thread_encrypted": "Responder al hilo cifrado…",
+        "placeholder_thread_encrypted": "Responder al hilo…",
         "poll_button": "Encuesta",
         "poll_button_no_perms_description": "No tienes permisos para empezar encuestas en esta sala.",
         "poll_button_no_perms_title": "Se necesita permiso",
@@ -1507,9 +1507,9 @@
         },
         "total_no_votes": "Ningún voto",
         "total_not_ended": "Los resultados podrán verse cuando la encuesta termine",
-        "type_closed": "Encuesta cerrada",
-        "type_heading": "Tipo de encuesta",
-        "type_open": "Encuesta abierta",
+        "type_closed": "Visible después de finalizar",
+        "type_heading": "Votos",
+        "type_open": "Visible después de votar",
         "unable_edit_description": "Lo siento, no puedes editar una encuesta después de que alguien haya votado en ella.",
         "unable_edit_title": "Encuesta no editable"
     },
@@ -3404,5 +3404,8 @@
             "topTen": "Esta contraseña está entre las 10 más comunes",
             "wordByItself": "Una palabra es fácil de adivinar"
         }
-    }
+    },
+    "Welcome ChurchTools Chat": "Bienvenido al ChurchTools Web-Chat",
+    "Welcome text": "Continúa los chats de la aplicación ChurchTools. Puedes iniciar chats con personas que aún no ves aquí en la aplicación ChurchTools.",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:30/doc:FAQs%20Webchat\">FAQ</a> sobre ChurchTools Web-Chat"
 }

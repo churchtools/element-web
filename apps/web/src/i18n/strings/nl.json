@@ -518,11 +518,11 @@
         "mode_rich_text": "Opmaak tonen",
         "no_perms_notice": "Je hebt geen toestemming actief aan deze kamer deel te nemen",
         "placeholder": "Verstuur een bericht…",
-        "placeholder_encrypted": "Verstuur een versleuteld bericht…",
+        "placeholder_encrypted": "Verstuur een bericht…",
         "placeholder_reply": "Verstuur een antwoord…",
-        "placeholder_reply_encrypted": "Verstuur een versleuteld antwoord…",
+        "placeholder_reply_encrypted": "Verstuur een antwoord…",
         "placeholder_thread": "Reageer op draad…",
-        "placeholder_thread_encrypted": "Reageer op versleutelde draad…",
+        "placeholder_thread_encrypted": "Reageer op draad…",
         "poll_button_no_perms_description": "Je hebt geen toestemming om polls te starten in deze kamer.",
         "poll_button_no_perms_title": "Toestemming vereist",
         "replying_title": "Aan het beantwoorden",
@@ -1310,8 +1310,9 @@
         },
         "total_no_votes": "Geen stemmen uitgebracht",
         "total_not_ended": "Resultaten zijn zichtbaar wanneer de poll is afgelopen",
-        "type_closed": "Gesloten poll",
-        "type_open": "Start poll",
+        "type_closed": "Zichtbaar na beëindigen",
+        "type_heading": "Stemmen",
+        "type_open": "Zichtbaar na stemmen",
         "unable_edit_description": "Sorry, je kan een poll niet bewerken nadat er gestemd is.",
         "unable_edit_title": "Kan poll niet bewerken"
     },
@@ -3112,5 +3113,8 @@
             "topTen": "Dit staat in de top 10 van meestgebruikte wachtwoorden",
             "wordByItself": "Eén enkel woord is zeer gemakkelijk te raden"
         }
-    }
+    },
+    "Welcome ChurchTools Chat": "Welkom bij de ChurchTools Web-Chat",
+    "Welcome text": "Ga verder met chats uit de ChurchTools app. Chats met mensen die je hier nog niet ziet, kun je starten in de ChurchTools app.",
+    "Welcome faq": "<a target=\"_blank\" href=\"https://intern.church.tools/?q=churchwiki#WikiView/filterWikicategory_id:30/doc:FAQs%20Webchat\">FAQ</a> over ChurchTools Web-Chat"
 }
