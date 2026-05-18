@@ -9,7 +9,6 @@
 import { type MatrixClient, SyncState } from "matrix-js-sdk/src/matrix";
 import { EventEmitter } from "events";
 
-import { MatrixClientPeg } from "../MatrixClientPeg";
 import { type ActionPayload } from "../dispatcher/payloads";
 import { type IDestroyable } from "../utils/IDestroyable";
 import { Action } from "../dispatcher/actions";
@@ -26,8 +25,9 @@ export abstract class ReadyWatchingStore extends EventEmitter implements IDestro
     public async start(): Promise<void> {
         this.dispatcherRef = this.dispatcher.register(this.onAction);
 
-        // MatrixClientPeg can be undefined in tests because of circular dependencies with other stores
-        const matrixClient = MatrixClientPeg?.get();
+        // MatrixClientPeg can be undefined in tests and during early store initialisation because of circular
+        // dependencies with other stores.
+        const matrixClient = window.mxMatrixClientPeg?.get();
         if (matrixClient) {
             this.matrixClient = matrixClient;
             await this.onReady();
